@@ -1,8 +1,10 @@
 # Creative Todo Web App 🎨
 
 A modern, fast, and beautiful task management application built with **Laravel 12** (Backend) and **React + Vite** (Frontend).
-
 It features a stunning **Glassmorphism UI**, role-based access control (Admin/User), and powerful task organization tools.
+
+![Project Status](https://img.shields.io/badge/status-active-success.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## 🚀 Features
 
@@ -87,7 +89,13 @@ php artisan app:check-due-tasks
 
 ## 📸 Screenshots
 
-*(Add screenshots of your Dashboard and Admin Panel here)*
+![Image](https://github.com/user-attachments/assets/7cbda870-11c7-48ed-ae39-66e0e0c8ccc3)
+![Image](https://github.com/user-attachments/assets/4eacc5f1-7171-44fd-a881-e51e01ea0385)
+![Image](https://github.com/user-attachments/assets/14a1a3d8-a449-4764-bf4a-4b80c4ce47b9)
+![Image](https://github.com/user-attachments/assets/7203ab5e-94d3-45ce-91eb-ebf44acb0356)
+
+## 📝 License
+This project is open-source and available under the MIT License.
 
 ---
-Made with ❤️
+Made By *Rashmika Dhananjaya*
